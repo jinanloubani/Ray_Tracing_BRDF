@@ -69,6 +69,6 @@ th_r = np.linspace(0,np.pi/2,N) # 0 - 90 degrés
 phi = np.linspace(0,np.pi/2,N) # 0 - 90 degrés
 sigma = 0.15
 n_t = 1.57
-n_i = 1.
+n_i = 1
 th_i = np.pi/3 # 60 degrés
 Z = f(th_i,th_r,phi)*cos(th_r)
